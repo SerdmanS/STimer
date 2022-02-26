@@ -14,7 +14,7 @@ def clock():
     H = int(input("Saat girin : "))
     M = int(input("Dakika girin : "))
     S = int(input("Saniye girin : "))
-    os.system("cls")
+    os.system("clear")
 
     while True:
         print(f"{H}:{M}:{S}")
