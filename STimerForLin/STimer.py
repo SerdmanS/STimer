@@ -36,12 +36,12 @@ def clock():
 
         if S==0 and M>0:
             M-=1
-            S=59
+            S=60
 
         if S==0 and M==0 and H>0:
             H-=1
             M=59
-            S=59
+            S=60
         S-=1
 try:
     if len(sys.argv)<2: help()
